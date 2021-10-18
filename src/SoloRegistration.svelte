@@ -1,6 +1,7 @@
 <script>
 
 	//export let hide_solo;
+	export let tracker;
 	export let success = false;
 	export let failed = false;
 	export let main_url;
@@ -14,7 +15,7 @@
 	let mobile = "";
 	let email = "";
 	let player_class = "";
-	let tracker = "";
+	//let tracker = "";
 	let events = "";
 
 
@@ -37,7 +38,7 @@
 		}
 
 		else {
-			let tracker = localStorage.getItem("t");
+			//let tracker = localStorage.getItem("t");
 
 			let data = {
 				name: name,

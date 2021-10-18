@@ -1,4 +1,5 @@
 <script>
+	export let tracker;
 	export let success = false;
 	export let failed = false;
 	export let main_url;
@@ -12,7 +13,6 @@
 	let player_1 = "";
 	let player_2 = "";
 	let player_3 = "";
-	let tracker = "";
 	let events = [];
 
 
@@ -40,7 +40,7 @@
 		}
 
 		else {
-			let tracker = localStorage.getItem("t");
+			//let tracker = localStorage.getItem("t");
 
 			let data = {
 				name: team_name,
