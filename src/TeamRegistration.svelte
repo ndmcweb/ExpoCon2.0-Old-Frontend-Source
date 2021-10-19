@@ -10,6 +10,8 @@
 	let team_name = "";
 	let school = "";
 	let contact = "";
+	let email = "";
+	let phone_opt = "";
 	let player_1 = "";
 	let player_2 = "";
 	let player_3 = "";
@@ -17,9 +19,9 @@
 
 
 	function submit() {
-		if(team_name == "" || school == "" || contact == "" || player_1 == "") {
+		if(team_name == "" || school == "" || contact == "" || player_1 == "" || email =="" || phone_opt == "") {
 			warn = true;
-			alert = "please fill all required field"
+			alert = "Please fill all required field"
 		} 
 
 		else if (!Number(contact)) {
@@ -45,6 +47,8 @@
 			let data = {
 				name: team_name,
 				school: school,
+				email: email,
+				phone_opt: phone_opt,
 				player_1: player_1,
 				player_2: player_2,
 				player_3: player_3,
@@ -129,6 +133,18 @@
 		<div class="mb-4">
 			<label for="exampleFormControlInput1" class="form-label">Mobile Number to Contact</label>
 			<input bind:value={contact} type="text" class="form-control text-light bg-transparent" id="exampleFormControlInput1" placeholder="01#########">
+		</div>
+
+		<!--contact optional-->
+		<div class="mb-4">
+			<label for="exampleFormControlInput1" class="form-label">Another Mobile Number</label>
+			<input bind:value={phone_opt} type="text" class="form-control text-light bg-transparent" id="exampleFormControlInput1" placeholder="01#########">
+		</div>
+
+		<!--email-->
+		<div class="mb-4">
+			<label for="exampleFormControlInput1" class="form-label">Email</label>
+			<input bind:value={email} type="text" class="form-control text-light bg-transparent" id="exampleFormControlInput1" placeholder="pixie.awesome@gmail.com">
 		</div>
 
 		<div>
