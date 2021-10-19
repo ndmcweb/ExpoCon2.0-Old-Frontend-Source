@@ -11,6 +11,7 @@
 
 <div class="container">
   <div class="alert alert-success my-4" role="alert">
-    Your Registration was successful
+    Your Registration was <strong>Successful</strong> <br>
+    Currently we're not sending email confirmation.
   </div>
 </div>
