@@ -12,10 +12,13 @@
 
 <div class="container">
   <div class="alert alert-danger my-4" role="alert">
-    registration <strong>Unsuccessful</strong>
+    Registration <strong>Unsuccessful</strong>
     <br>
     <ul>
-      <li>please make sure you entered a valid email</li>
+      <li>Please make sure you entered a valid email</li>
+    </ul>
+    <ul>
+      <li>Please make sure you're not using the same phone number twice</li>
     </ul>
     <br>
     <strong>Please contact us if the problem continues</strong>
