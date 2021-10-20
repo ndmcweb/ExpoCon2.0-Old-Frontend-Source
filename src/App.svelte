@@ -12,7 +12,8 @@
 	let success = false;
 	let failed = false;
 	let tracker = "";
-	let main_url="https://expocon.pythonanywhere.com";
+	let main_url="https://ndmcweb.pythonanywhere.com";
+	//let main_url="https://expocon.pythonanywhere.com";
 	//let main_url="http://127.0.0.1:5000";
 </script>
 
