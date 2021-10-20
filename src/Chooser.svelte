@@ -40,7 +40,7 @@
 	    	<div class="card w-auto h-100 bg-dark" style="width: 18rem;">
 	    	  <div class="card-body flex-awesome">
 	    	  	<div>
-	    	  		<h5 class="card-title">Team Events</h5>
+	    	  		<h5 class="card-title">Team Segments</h5>
 	    	  		<h6 class="card-subtitle mb-2 text-muted">Join with your Team</h6>
 	    	  	</div>
 	    	    <div>
@@ -58,7 +58,7 @@
 	    	    </div>
 
 	    	    <button type="button" href="#" class="card-link btn btn-primary" on:click={go_team}>
-	    	    		REGISTER TEAM EVENT
+	    	    		REGISTER TEAM SEGMENTS
 	    	    </button>
 	    	  </div>
 	    	</div>
@@ -68,8 +68,8 @@
 	    	<div class="card w-auto h-100 bg-dark" style="width: 18rem;">
 	    	  <div class="card-body flex-awesome">
 	    	    <div>
-	    	    	<h5 class="card-title">Solo Events</h5>
-	    	    	<h6 class="card-subtitle mb-2 text-muted">Register for non-team events</h6>
+	    	    	<h5 class="card-title">Solo Segments</h5>
+	    	    	<h6 class="card-subtitle mb-2 text-muted">Register for individual segments</h6>
 	    	    </div>
 	    	    <div>
 	    	    	<ul>
@@ -85,7 +85,7 @@
 	    	    	</ul>
 	    	    </div>
 	    	    <button type="button" href="#" class="card-link btn btn-success" on:click={go_solo}>
-	    	    	REGISTER SOLO EVENT
+	    	    	REGISTER SOLO SEGMENTS
 	    	    </button>
 	    	  </div>
 	    	</div>
