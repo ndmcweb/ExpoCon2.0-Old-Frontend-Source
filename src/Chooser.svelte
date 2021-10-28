@@ -57,9 +57,12 @@
 	    	    	</p>
 	    	    </div>
 
-	    	    <button type="button" href="#" class="card-link btn btn-primary" on:click={go_team}>
-	    	    		REGISTER TEAM SEGMENTS
+	    	    <button type="button" href="#" class="card-link btn btn-primary">
+	    	    		REGISTRATION IS CLOSED
 	    	    </button>
+<!-- 	    	    <button type="button" href="#" class="card-link btn btn-primary" on:click={go_team}>
+	    	    		REGISTER TEAM SEGMENTS
+	    	    </button> -->
 	    	  </div>
 	    	</div>
 	    </div>
@@ -84,9 +87,12 @@
 	    	    		<li>Decipherio</li>
 	    	    	</ul>
 	    	    </div>
-	    	    <button type="button" href="#" class="card-link btn btn-success" on:click={go_solo}>
-	    	    	REGISTER SOLO SEGMENTS
+	    	    <button type="button" href="#" class="card-link btn btn-success">
+	    	    	REGISTRATION IS CLOSED
 	    	    </button>
+<!-- 	    	    <button type="button" href="#" class="card-link btn btn-success" on:click={go_solo}>
+	    	    	REGISTER SOLO SEGMENTS
+	    	    </button> -->
 	    	  </div>
 	    	</div>
 	    </div>
